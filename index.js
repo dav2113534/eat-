@@ -33,3 +33,5 @@ function hoverEfftect() {
             $('.spin').html(restaurants[i]);
     });
 }
+
+hoverEfftect();
