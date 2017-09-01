@@ -4,6 +4,3 @@
     top: 12px;
     animation: mov 0.12s infinite;
 }
-.spinBox {
-  background: linear-gradient(to bottom, #ffffff 0%, #e0dd86 25%, #c4ad77 50%, #b38fb5 75%, #a7cae5 100%);
-}
