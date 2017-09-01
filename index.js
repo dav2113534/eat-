@@ -15,3 +15,7 @@ function changeRestaurant() {
     change.html(restaurants[first]);
     first = (first + 1) % allRestaurants;
 }
+
+function makeItSpin(){
+    let spins = setInterval(changeRestaurant, 120);
+}; 
