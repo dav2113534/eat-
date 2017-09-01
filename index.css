@@ -1,0 +1,9 @@
+.spin:hover {
+    text-shadow: 0 4px 4px rgba(255, 255, 255, 0.2), 0 6px 6px rgba(255, 255, 255, 0.4), 0 8px 18px rgba(255, 255, 255, 0.8), 0 22px 18px rgba(255, 255, 255, 0.5), 0 -4px 4px rgba(255, 255, 255, 0.2), 0 -6px 6px rgba(255, 255, 255, 0.4), 0 -8px 18px rgba(255, 255, 255, 0.8), 0 -22px 18px rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.2);
+    top: 12px;
+    animation: mov 0.12s infinite;
+}
+.spinBox {
+  background: linear-gradient(to bottom, #ffffff 0%, #e0dd86 25%, #c4ad77 50%, #b38fb5 75%, #a7cae5 100%);
+}
