@@ -1,16 +1,11 @@
 .spin:hover {
     text-shadow: 0 4px 4px rgba(255, 255, 255, 0.2), 0 6px 6px rgba(255, 255, 255, 0.4), 0 8px 18px rgba(255, 255, 255, 0.8), 0 22px 18px rgba(255, 255, 255, 0.5), 0 -4px 4px rgba(255, 255, 255, 0.2), 0 -6px 6px rgba(255, 255, 255, 0.4), 0 -8px 18px rgba(255, 255, 255, 0.8), 0 -22px 18px rgba(255, 255, 255, 0.5);
-    color: rgba(255, 255, 255, 0.2);
     top: 12px;
-    animation: mov 0.12s infinite;
+    animation: mov 0.5s infinite;
 }
 
 .jumbotron {
     margin-top: 4em;
-    background-color: black;
-}
-
-.spin {
     background-color: black;
 }
 
@@ -28,6 +23,7 @@
         opacity: 0;
     }
 }
+
 
 /* html {
     background: url(img/dogs.jpg) no-repeat center center fixed;
