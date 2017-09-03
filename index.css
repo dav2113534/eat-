@@ -1,20 +1,65 @@
+html {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #ffffff 0%, #e0dd86 25%, #c4ad77 50%, #b38fb5 75%, #a7cae5 100%);
+}
+
+h1 {
+    color: rgba(114, 123, 141, 0.6);
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 4px;
+    margin: 20px 0 0;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.box {
+    font-size: 3.4em;
+    letter-spacing: -0.045em;
+    color: #FFF;
+    height: 100%;
+    text-align: center;
+    margin: 4% auto;
+    text-shadow: 0 2px 8px rgba(158, 143, 32, 0.77), 0 2px 0 rgba(151, 136, 47, 0.24);
+    transition: all 0.2s ease;
+}
+
+.box {
+    color: #000;
+    text-shadow: 0 1px 1px rgba(196, 68, 68, 0.24), 0 2px 8px rgba(0, 0, 0, 0.77), 0 7px 15px rgba(58, 2, 2, 0.67), 0 14px 19px rgba(82, 0, 0, 0.57)
+}
+
+.spin {
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-block;
+    position: relative;
+}
+
 .spin:hover {
     text-shadow: 0 4px 4px rgba(255, 255, 255, 0.2), 0 6px 6px rgba(255, 255, 255, 0.4), 0 8px 18px rgba(255, 255, 255, 0.8), 0 22px 18px rgba(255, 255, 255, 0.5), 0 -4px 4px rgba(255, 255, 255, 0.2), 0 -6px 6px rgba(255, 255, 255, 0.4), 0 -8px 18px rgba(255, 255, 255, 0.8), 0 -22px 18px rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.2);
     top: 12px;
-    animation: mov 0.5s infinite;
+    animation: mov 0.20s infinite;
 }
 
-.jumbotron {
-    margin-top: 4em;
-    background-color: black;
-}
-
-p {
-  color: rgba(114, 123, 141, 0.6);
-  font-weight: 400;
-  font-size: 10px;
-  letter-spacing: 4px;
-  margin: 20px 0 0;
+@keyframes in {
+    0% {
+        transform: translatey(-30px);
+    }
+    50% {
+        transform: translatey(-15px);
+    }
+    100% {
+        transform: translatey(0);
+    }
 }
 
 @keyframes mov {
@@ -31,12 +76,3 @@ p {
         opacity: 0;
     }
 }
-
-
-/* html {
-    background: url(img/dogs.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
