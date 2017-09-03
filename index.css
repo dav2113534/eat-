@@ -1,10 +1,11 @@
 html {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
-}
-
-body {
-    background: linear-gradient(to bottom, #ffffff 0%, #e0dd86 25%, #c4ad77 50%, #b38fb5 75%, #a7cae5 100%);
+    background: url("img/firstEdit.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 h1 {
@@ -48,6 +49,16 @@ h1 {
     color: rgba(255, 255, 255, 0.2);
     top: 12px;
     animation: mov 0.20s infinite;
+}
+
+.fa {
+    font-size: xx-large;
+    cursor: pointer;
+    user-select: none;
+}
+
+.fa:hover {
+    color: darkblue;
 }
 
 @keyframes in {

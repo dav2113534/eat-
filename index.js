@@ -6,10 +6,11 @@ var restaurants = [
         "Jamba juice",
         "Mexican food"
     ],
-
+    /*This will allow me to access restaurants and position them*/
     allRestaurants = restaurants.length,
     firstChoice = 0,
     change = $('.spin'),
+    //goes thru all restaurants
     changeChoice = function () {
         change.html(restaurants[firstChoice]);
         firstChoice = (firstChoice + 1) % allRestaurants;
@@ -24,3 +25,7 @@ $('.spin').hover(function () {
 }, function () {
     clearInterval(ohYeah);
 });
+
+function myFunction(x) {
+    x.classList.toggle("fa-thumbs-down");
+}
