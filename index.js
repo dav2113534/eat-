@@ -1,37 +1,26 @@
-let restaurants = [
-    "taco bell",
-    "Burger king",
-    "Jimmy Johns",
-    "Subway",
-    "Jamba juice",
-    "Mexican food"
-]
-//Lets us access restaurants in array
-let allRestaurants = restaurants.length;
+var restaurants = [
+        "taco bell",
+        "Burger king",
+        "Jimmy Johns",
+        "Subway",
+        "Jamba juice",
+        "Mexican food"
+    ],
 
-let first = 0;
-let change = $('.spin');
+    allRestaurants = restaurants.length,
+    firstChoice = 0,
+    change = $('.spin'),
+    changeChoice = function () {
+        change.html(restaurants[firstChoice]);
+        firstChoice = (firstChoice + 1) % allRestaurants;
+    }
 
-function changeRestaurant() {
-    change.html(restaurants[first]);
-    first = (first + 1) % allRestaurants;
-}
-
-function makeItSpin() {
-    let spins = setInterval(changeRestaurant, 120);
+function spinner() {
+    ohYeah = setInterval(changeChoice, 120); //must match css animation
 };
 
 $('.spin').hover(function () {
-    makeItSpin();
+    spinner();
 }, function () {
-    clearInterval(spins);
-})
-
-function hoverEfftect() {
-    $('.spin').hover(function () {
-        for (let i = 0; i > restaurants.length; i++)
-            $('.spin').html(restaurants[i]);
-    });
-}
-
-hoverEfftect();
+    clearInterval(ohYeah);
+});
