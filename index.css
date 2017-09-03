@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background: linear-gradient(to bottom, #ffffff 0%, #e0dd86 25%, #c4ad77 50%, #b38fb5 75%, #a7cae5 100%);
+    /* background: linear-gradient(to bottom, #ffffff 0%, #e0dd86 25%, #c4ad77 50%, #b38fb5 75%, #a7cae5 100%); */
 }
 
 h1 {
@@ -51,7 +51,9 @@ h1 {
 }
 
 .fa {
- 
+    font-size: xx-large;
+    cursor: pointer;
+    user-select: none;
 }
 
 .fa:hover {
