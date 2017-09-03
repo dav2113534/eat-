@@ -50,6 +50,14 @@ h1 {
     animation: mov 0.20s infinite;
 }
 
+.fa {
+ 
+}
+
+.fa:hover {
+    color: darkblue;
+}
+
 @keyframes in {
     0% {
         transform: translatey(-30px);
