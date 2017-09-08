@@ -1,12 +1,10 @@
 html {
     height: 100%;
-    font-family: 'Montserrat', sans-serif;
     background: url("img/firstEdit.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: transparent;
 }
 
 h1 {
@@ -18,27 +16,16 @@ h1 {
 }
 
 .box {
-    background-color: none;
-}
-
-h1 {
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.box {
+    padding-top: 1em;
     font-size: 3.4em;
     letter-spacing: -0.045em;
-    color: #FFF;
+    color: #000;
+    text-shadow: 0 1px 1px rgba(231, 220, 220, 0.24), 0 2px 8px rgba(0, 0, 0, 0.77), 0 7px 15px rgba(58, 2, 2, 0.67), 0 14px 19px rgba(82, 0, 0, 0.57);
     height: 100%;
     text-align: center;
     margin: 4% auto;
-    text-shadow: 0 2px 8px rgba(158, 143, 32, 0.77), 0 2px 0 rgba(151, 136, 47, 0.24);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.77), 0 2px 0 rgba(151, 136, 47, 0.24);
     transition: all 0.2s ease;
-}
-
-.box {
-    color: #000;
-    text-shadow: 0 1px 1px rgba(196, 68, 68, 0.24), 0 2px 8px rgba(0, 0, 0, 0.77), 0 7px 15px rgba(58, 2, 2, 0.67), 0 14px 19px rgba(82, 0, 0, 0.57)
 }
 
 .spin {
