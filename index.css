@@ -4,6 +4,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: black; 
 }
 
 h1 {
@@ -49,6 +50,7 @@ h1 {
     font-size: xx-large;
     cursor: pointer;
     user-select: none;
+    margin-top: 2em;
 }
 
 .fa:hover {
