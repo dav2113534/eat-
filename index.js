@@ -26,6 +26,15 @@ $('.spin').hover(function () {
     clearInterval(ohYeah);
 });
 
+//Works the thums down thumbs up
 function myFunction(x) {
     x.classList.toggle("fa-thumbs-down");
 }
+
+function clickMe() {
+    $('.menu').click(function (x) {
+        console.log("hello")
+    })
+}
+
+clickMe(); 
