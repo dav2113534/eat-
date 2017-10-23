@@ -4,7 +4,12 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: black;
+    background-color: #913838;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
