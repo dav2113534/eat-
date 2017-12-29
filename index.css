@@ -7,9 +7,8 @@ html {
     background-color: #913838;
 }
 
-body {
-    margin: 20%;
-    margin-top: 4em;
+.homePage {
+    margin-top: 5em;
 }
 
 h1 {
