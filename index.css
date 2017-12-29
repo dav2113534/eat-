@@ -9,6 +9,11 @@ html {
 
 .homePage {
     margin-top: 5em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 70%;
 }
 
 h1 {
